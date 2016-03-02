@@ -3,11 +3,11 @@
 /* Script Name: Alo
 /* Script Home: https://asif.im/alo
 /* Script Details: Light-weight PHP-Based Server Probe. Shows details of the hosting server.
-/* Script Version: 1.0
+/* Script Version: 1.1
 /* Script Developer: M Asif Rahman
 /* Developer URI: https://Asif.im
-/* Last Update: 2013-04-09
-/* License: GPLv2.0
+/* Last Update: 2016-03-02
+/* License: GPLv3.0
 /* ---------------------------------------------------- */
 
 
@@ -16,7 +16,7 @@ error_reporting(0); //Suppress all error messages
 ob_start();
 
 $title = "Alo - Server Probe";
-$version = " V1.0"; //Version number
+$version = " V1.1"; //Version number
 
 define('HTTP_HOST', preg_replace('~^www\.~i', '', $_SERVER['HTTP_HOST']));
 
@@ -966,10 +966,10 @@ foreach ($able as $key=>$value) {
     <td width="32%">PHP Info: </td>
     <td width="18%">
 		<?php
-		$phpSelf = $_SERVER[PHP_SELF] ? $_SERVER[PHP_SELF] : $_SERVER[SCRIPT_NAME];
+		$phpSelf = $_SERVER['PHP_SELF'] ? $_SERVER['PHP_SELF'] : $_SERVER['SCRIPT_NAME'];
 		$disFuns=get_cfg_var("disable_functions");
 		?>
-    <?php echo (false!==eregi("phpinfo",$disFuns))? '<font color="red">×</font>' :"<a href='$phpSelf?act=phpinfo' target='_blank'>PHPINFO</a>";?>
+     <?php echo (true==preg_match("/phpinfo/i",$disFuns))? '<font color="red">×</font>' :"<a href='$phpSelf?act=phpinfo' target='_blank'>PHPINFO</a>";?>
     </td>
     <td width="32%">PHP Version: </td>
     <td width="18%"><?php echo PHP_VERSION;?></td>
