@@ -1,4 +1,4 @@
-**Alo Server Probe**
+**Alo - Server Probe**
 ----------------
 
 * Script Name: Alo
