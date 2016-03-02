@@ -17,7 +17,7 @@
 
 This is a simple, very lightweight, PHP-based server prove. If give your very detail live report about your server.
 
-[M Asif Rahman](https://asif.im/) brings **[Alo - Server Probe](https://asif.im/alo)**.
+
 
 **Script Demo:** - [http://megh.site/alo.php](http://megh.site/alo.php)
 
@@ -60,3 +60,6 @@ This is a simple, very lightweight, PHP-based server prove. If give your very de
 
 **Credit:**
 This script is based on a chinese script, released under GPL, but not maintained for many years, and no proper english version.
+
+
+*[M Asif Rahman](https://asif.im/) brings **[Alo - Server Probe](https://asif.im/alo)**.*
