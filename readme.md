@@ -36,8 +36,8 @@ This is a simple, very lightweight, PHP-based server prove. If give your very de
 
 **How-To Use:**
 
-1) Copy the "alo.php" file to your server webroot
-2) Now access this file directly in your browser, if you copied in domain root, the link might be http://domain.com/alo.php
+* 1) Copy the "alo.php" file to your server webroot
+* 2) Now access this file directly in your browser, if you copied in domain root, the link might be http://domain.com/alo.php
 
 **It's recommended to rename this file to something unique so only server admin could access the report.
 
