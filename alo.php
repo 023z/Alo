@@ -821,7 +821,7 @@ function displayData(dataJSON)
   <tr>
 	  <td>Administrator Mail</td>
 	  <td><?php echo $_SERVER['SERVER_ADMIN'];?></td>
-		<td>SePro Path</td>
+		<td>Alo Path</td>
 		<td><?php echo str_replace('\\','/',__FILE__)?str_replace('\\','/',__FILE__):$_SERVER['SCRIPT_FILENAME'];?></td>
 	</tr>
 </table>
