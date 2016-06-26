@@ -1,4 +1,4 @@
-**Alo Server Probe**
+**Alo - Server Probe**
 ----------------
 
 * Script Name: Alo
@@ -17,9 +17,15 @@
 
 This is a simple, very lightweight, PHP-based server prove. If give your very detail live report about your server.
 
-[M Asif Rahman](https://asif.im/) brings **[Alo - Server Probe](https://asif.im/alo)**.
+
 
 **Script Demo:** - [http://megh.site/alo.php](http://megh.site/alo.php)
+
+**ProductHunt:**
+
+We are also live at PH, give a heads up if you are there -
+
+[https://www.producthunt.com/tech/alo-server-probe](https://www.producthunt.com/tech/alo-server-probe)
 
 
 
@@ -36,8 +42,8 @@ This is a simple, very lightweight, PHP-based server prove. If give your very de
 
 **How-To Use:**
 
-1) Copy the "alo.php" file to your server webroot
-2) Now access this file directly in your browser, if you copied in domain root, the link might be http://domain.com/alo.php
+* 1) Copy the "alo.php" file to your server webroot
+* 2) Now access this file directly in your browser, if you copied in domain root, the link might be http://domain.com/alo.php
 
 **It's recommended to rename this file to something unique so only server admin could access the report.
 
@@ -60,3 +66,6 @@ This is a simple, very lightweight, PHP-based server prove. If give your very de
 
 **Credit:**
 This script is based on a chinese script, released under GPL, but not maintained for many years, and no proper english version.
+
+
+*[M Asif Rahman](https://asif.im/) brings **[Alo - Server Probe](https://asif.im/alo)**.*
